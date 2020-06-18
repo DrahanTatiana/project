@@ -1,12 +1,11 @@
 
-s = 'Adverts make children pester their parents to buy things for them.'
+s = input('Please enter your message:')
 
-idx = s.find('h')
-print(idx)
-idx = s.rfind('h', idx)
-print(idx)
+A = idx = s.find('h')
+B = idx = s.rfind('h', idx)
 
-x= (s[15:62])
+x= (s[(A+1):B])
 
-print(s[0:15], x.replace('h', 'H'), s[62:], sep='')
+print(s[0:(A+1)], x.replace('h', 'H'), s[B:], sep='')
+
 

@@ -1,5 +1,5 @@
 
-y = 'Please enter your message.'
+y = input('Please enter your message:')
 
 #a
 print(y[2])
@@ -18,4 +18,4 @@ print(y[::-1])
 #h
 print(y[::-2])
 #i
-print(len (y))
+print(len(y))
